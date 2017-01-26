@@ -1,0 +1,2 @@
+# kintai
+Attendance record
