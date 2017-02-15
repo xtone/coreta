@@ -1,0 +1,28 @@
+// Place all the styles related to the Attendance controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#attendance-list {
+  .row > div {
+    background-color: rgba(0.3, 0.3, 0.3, 0.2);
+    border: solid #fff 1px;
+    position: relative;
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+
+      .name {
+        @include float-left;
+        font-size: 200%;
+      }
+      .time {
+        @include float-right;
+        font-size: 67%;
+        position: relative;
+        top: 33%;
+      }
+    }
+  }
+}
